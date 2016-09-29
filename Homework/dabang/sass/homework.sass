@@ -1,0 +1,34 @@
+// position 설정에서 "50%"와 center 가 어떤 차이가 있었는지 기억이 안남;;
+
+
+// navbar에 기본 포함되어 있는 margin을 없애기 위해 따로 클래스를 정했음//
+.nav-no-margin
+  margin-bottom: 0px
+
+
+//1. 백그라운드 이미지 연결
+  2. 이미지를 뷰포트의 센터+top으로 고정시킴
+  3. 이미지 반복 하지 않음
+  4. 배경색은 블랙
+  5. 이미지 높이값은 678px//
+
+
+.index-container
+  .bg-image-container
+    background-image: url(../images/index-bg.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+    background-color: black
+    height: 678px
+    .caption-container
+      position: absolute
+      color: white
+      top: 220px
+      left: 50%
+      margin-left: -418px
+      text-align: right
+      .caption-top
+        font-size: 22px
+        margin-bottom: 0px
+      .caption-bottom
+        font-size: 36px

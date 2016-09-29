@@ -1,0 +1,40 @@
+// navbar에 기본 포함되어 있는 margin을 없애기 위해 따로 클래스를 정했음//
+nav.navbar-no-margin
+  margin: 0
+
+//1. 백그라운드 이미지 연결
+  2. 이미지를 뷰포트의 센터+top으로 고정시킴
+  3. 이미지 반복 하지 않음
+  4. 배경색은 블랙
+  5. 이미지 높이값은 678px//
+.index-content
+  .index-image-container
+    background-image: url(../images/index-bg.jpg)
+    background-position: 50% top
+    background-repeat: no-repeat
+    background-color: black
+    height: 678px
+
+    .caption-container
+      position: absolute
+      left: 50%
+      top: 160px
+      margin-left: -418px
+      color: white
+      text-align: right
+      .caption-top
+        font-size: 22px
+        margin-bottom: 0px
+      .caption-bottom
+        font-size: 36px
+
+//1. 이미지위의 문구는 고정되어야 함.
+  2. 회면의 특정 지점에 글자가 고정되어야 함.
+    -화면의 정중앙(left 50%)에서 왼쪽으로 418px만큼 이동
+    -위에서 160px만큼 아래로 내려와야 함.
+  3. 2행의 문구는 오른쪽으로 정렬되어 있음
+  4. 2행의 문구는 크기가 서로 다름
+    -윗 문구는 크기가 22px
+    -아랫 문구는 36px
+  5. 윗 문구의 bottom 에 마진이 포함되어 있어서 없애야 함.
+  5. 문구의 컬러는 화이트.
