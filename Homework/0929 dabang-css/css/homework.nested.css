@@ -1,0 +1,23 @@
+.nav-no-margin {
+  margin-bottom: 0px; }
+
+.index-container .bg-image-container {
+  background-image: url(../images/index-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 678px; }
+  .index-container .bg-image-container .caption-container {
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 50%;
+    margin-left: -418px;
+    text-align: right; }
+    .index-container .bg-image-container .caption-container .caption-top {
+      font-size: 22px;
+      margin-bottom: 0px; }
+    .index-container .bg-image-container .caption-container .caption-bottom {
+      font-size: 36px; }
+
+/*# sourceMappingURL=homework.nested.css.map */
